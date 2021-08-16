@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="معرفی دوره">
+    <title>مجتمع فنی تهران | تقویم آموزشی</title>
+    <link rel="stylesheet" href="file.css">
+    <link rel="shortcut icon" href="img\favorite-icon.jpg" type="image/x-icon">
+    <script src='https://kit.fontawesome.com/07f98e99cb.js'></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 300){
+                    $('#btt').css({'right':'20px','opacity':'1'})
+                }else{
+                    $('#btt').css({'right':'-60px','opacity':'0.5'})
+                }
+            })
+            $('#btt').click(function(e){
+                e.preventDefault();
+                $('html,body').animate({scrollTop:0},'slow')
+            })
+        })
+    </script>
+</head>
+<body>
+    <a href="#" id="btt">Top</a>
+    <div class="header">
+        <div class="container pos-rel">
+            <a href="#logo">
+                <img src=".\img\logo.png" alt="محتمع فنی" class="logo">
+            </a>
+            <div class="nav-top">
+                <div class="online">
+                    <a href="#learn" class="none-decoration"> <li class="fa fa-video-camera" style="font-size: 12px;"></li>&nbsp; آموزش آنلاین</a>
+                </div>
+                <div class="re-stu ">
+                    <div class="re-online ">
+                        <a href="#regestor" class="none-decoration"> <li class="	fa fa-pencil-square"></li>&nbsp; ثبت نام آنلاین</a>
+                    </div>
+                    <div class="student">
+                        <a href="#student" class="none-decoration"> <li class="fas fa-user-alt"></li>&nbsp; پنل دانشپذیر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bar " id="myNav">
+            <div class="container pos-rel">
+                <ul>
+                    <li>
+                        <a href="#" class="none-decoration">صفحه اصلی</a>
+                    </li>
+                    
+                    <li class="dropDown">
+                        <a href="#" class="none-decoration">دپارتمان ها</a>
+                        <div class="depart-content">
+                            <a href="#d">فناوری و اطلاعات</a>
+                            <a href="#d">علوم مهندسی</a>
+                            <a href="depart-kids.html">کودک و نوجوان</a>
+                            <a href="#d">مدیریت و کارآفرینی</a>
+                            <a href="#d">زبان های خارجی</a>
+                            <a href="#d">دانش و سلامت</a>
+                            <a href="#d">معماری</a>
+                            <a href="#d">فناوری مد و پوشاک</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="none-decoration"> مراکز </a>
+                    </li>
+
+                    <li>
+                        <a href="#"class="none-decoration">تقویم آموزشی</a>
+                    </li>
+
+                    <li class="dropDown">
+                        <a href="#" class="none-decoration">
+                            مقالات
+                        </a>
+                        <div class="depart-content">
+                            <a href="#m">فناوری مد و پوشاک</a>
+                            <a href="#m">دانش و سلامت</a>
+                            <a href="#m">معماری</a>
+                            <a href="#m">فناوری و اطلاعات</a>
+                            <a href="#m">علوم و مهندسی</a>
+                            <a href="#m">برق و الکترونیک</a>
+                            <a href="#m">هنر</a>
+                            <a href="#m">مالی و مدیریت</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <a href="#" class="none-decoration">امور بین الملل</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="none-decoration">امور نمایندگی ها</a>
+                    </li>
+
+                    <li class="dropDown">
+                        <a href="#" class="none-decoration">سرمایه های انسانی
+                        </a>
+                        <div class="depart-content">
+                            <a href="#covo">همکاری با ما</a>
+                        </div>
+                    </li>
+
+                    <li class="dropDown">
+                        <a href="#" class="none-decoration">روابط عمومی</a>
+                        <div class="depart-content">
+                            <a href="#rel">خبرنامه</a>
+                            <a href="#rel">اخبار</a>
+                            <a href="#rel">مقالات</a>
+                        </div>
+                        
+                    </li>
+
+                    <li>
+                        <a href="contactUs.html" class="none-decoration">تماس با ما
+                        </a>
+                    </li>
+
+                    <li class="dropDown">
+                        <a href="#" class="none-decoration">درباره ما
+                        </a>
+                        <div class="depart-content">
+                            <a href="#rel">معرفی مجتمع فنی تهران</a>
+                            <a href="#rel">چارت سازمانی</a>
+                            <a href="#rel">چشم انداز ماموریت</a>
+                            <a href="#rel">ارزش ها</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+                
+                <div class="phone small"><li class="fas fa-phone small"> <a href="#p" class="none-decoration"> </li> 021-2729 </a> </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container after">
+
+        <div class="top-img">
+            <a href="#img">
+                <img src="./img/topImage.jpeg" alt="kids" width="600px" height="300px">
+            </a>
+            <div class="dot after">
+                <div class="dot-mid">
+                    <div class="dotted "></div>
+                    <div class="dotted color-dot"></div>
+                    <div class="dotted"></div>
+                    <div class="dotted"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calendar">
+            <div class="calen1"><a href="#cal"> <li class="far fa-calendar-alt"></li> تقویم آموزشی دپارتمان کودک و نوجوان</a></div>
+        </div>
+
+        <div class="classes after">
+
+            <div class="class-frame mar-right">
+                <div class="class1a">
+                    <p>آموزش برنامه نویسی پیشرفته با پایتون</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> دوشنبه 14:30 تا 19:30 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت آنلاین</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1"> <span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">21</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">15800000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="class-frame mar-left">
+                <div class="class1a">
+                    <p>آموزش اضطراب بی اضطراب</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> دوشنبه 08:00 تا 14:00 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت حضوری</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1"> <span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">21</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">9800000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="class-frame mar-right">
+                <div class="class1a">
+                    <p>آموزش نوجوان و بازار سرمایه</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> دوشنبه 18:00 تا 20:00 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت آنلاین/حضوری</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1"> <span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">21</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">6800000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="class-frame mar-left">
+                <div class="class1a">
+                    <p>آموزش برنامه نویسی پیشرفته با پایتون</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> سه شنبه 18:00 تا 20:00 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت آنلاین</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1"> <span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">22</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">1100000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="class-frame mar-right">
+                <div class="class1a">
+                    <p>آموزش رازهای گفتگوی اثربخش</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> سه شنبه 8:00 تا 14:00 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت آنلاین/ حضوری</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1"> <span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">22</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">32000000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="class-frame mar-left">
+                <div class="class1a">
+                    <p>آموزش الگوسازی و تکنیک های دوخت پیشرفته</p>
+                    <p> #کد کلاس: 215407 <span class="far fa-clock"></span> مدت کلاس: 20 ساعت</p>
+                    <p> سه شنبه 14:30 تا 19:30 </p>
+                    <p><span class="fas fa-globe-africa"></span> برگزاری به صورت حضوری</p>
+                </div>
+
+                <div class="class1b">
+                    <ul>
+                        <li class="cal-num1 "><span class="fa fa-map-pin"></span> سعادت آباد </li>
+                        <li class="cal-num2">22</li>
+                        <li class="cal-num3">مهر</li>
+                        <li class="cal-num1">6800000</li>
+                        <li class="cal-num4">ثبت نام</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="article-content after">
+
+            <div class="article-right">
+                <div class="article-1">
+                    <a href="#top" class="top1-article">
+                        9 مهارت نرم ضروری برای کارکنان در عصر هوش مصنوعی
+                    </a>
+                    <p>سه شنبه 8 مهر 1399</p>
+                </div>
+
+                <div class="depart-2">
+                    <h4>دپارتمان ها</h4>
+                    <ul>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> فناوری اطلاعات و ارتباطات</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> علوم مهندسی</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span>  کودک و نوجوان</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> مدیریت و کارآفرینی</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> مجسمه سازی</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> مسابقات</a></li>
+                        <li> <a href="#m"><span class="	fa fa-angle-left" style="font-size: small;"></span> مهارت های زندگی</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> هنر و سینما</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> علوم مالی و حسابداری</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> توسعه توانمندی شخصی</a></li>
+                        <li> <a href="#m"><span class="	fa fa-angle-left" style="font-size: small;"></span> تشریفات و گردشگری</a></li>
+                        <li> <a href="#m"> <span class="fa fa-angle-left" style="font-size: small;"></span> زبان های خارجی</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="article-left">
+
+                <div class="art-left-top">
+                    <a href="#art" class="art-left art-1">همسو کردن ساختار سازمانی با اهداف تجاری</a>
+                    <a href="#art" class="art-left art-2">چه عواملی را باید در انتخاب ساختار سازمان خود در نظر بگیرید؟</a>
+                    <a href="#art" class="art-left art-3">هفت شاخص کلیدی در بازاریابی دیجیتال</a>
+                    <a href="#art" class="art-left art-4">بررسی تاثیر تمرکز مالکیت بر درماندگی مالی شرکت های پذیرفته شده در بورس اوراق بهادار تهران</a>
+                </div>
+
+                <div class="news">
+                    <h4>اخبار و اطلاعیه ها</h4>
+
+                    <div class="new-info after">
+                        <a href="#new">
+                            <img src=".\img\news1.jpeg" alt="">
+                            <div class="news-content">
+                                <p>سخنرانی دکتر سعادت در"اولین کنفرانس ملی آسیب شناسی آموزش و یادگیری الکترونیکی"مهر1399</p>
+                                <p>یکشنبه 20 مهر 1399</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="new-info after">
+                        <a href="#new">
+                            <img src=".\img\news2.jpeg" alt="">
+                            <div class="news-content">
+                                <p>تعطیلی کلاسهای حضوری تا 2 آبان ماه در تهران</p>
+                                <p>یکشنبه 20 مهر 1399</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="new-info after">
+                        <a href="#new">
+                            <img src=".\img\news3.jpeg" alt="Dr.bahramy">
+                            <div class="news-content">
+                                <p>دوره جدید طراحی اتاق خواب (دکتر بهزادی فر-دپارتمان معماری) تابستان 1399"قسمت دوم"</p>
+                                <p>یکشنبه 20 مهر 1399</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="new-info after">
+                        <a href="#new">
+                            <img src=".\img\news4.jpeg" alt="">
+                            <div class="news-content">
+                                <p>سمینار رایگان دپارتمان معماری مجتمع فنی تهران 13مهر ماه 1399</p>
+                                <p>یکشنبه 20 مهر 1399</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="new-info after">
+                        <a href="#new">
+                            <img src=".\img\new5.jpeg" alt="Dr.saadat">
+                            <div class="news-content">
+                                <p>داستان یک برندآموزشی موفق از تلویزیون اینترنتی "فن ومهارت"(دکترسعید سعادت)قسمت چهارم و پایانی</p>
+                                <p>یکشنبه 20 مهر 1399</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="all-news">
+                        <a href="#news">نمایش همه اخبار</a>
+                    </div>
+
+
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="final after">
+
+            <div class="fin-right after">
+                <div class="fin-icon"> <span class="fas fa-headphones"></span> </div>
+                <div class="fin-txt">
+                    <h2>نیاز به مشاور دارید؟</h2>
+                    <p>همکاران ما آماده پاسخگویی به سوالات شما می باشند.</p>                    
+                </div>
+            </div>
+
+            <div class="fin-left">
+                <div>
+                    <select id="fin-select"name="sel-center">
+                        <option value="#">انتخاب مرکز</option>
+                        <option value="#">سعادت آباد</option>
+                        <option value="#"> رشت</option>
+                        <option value="#">نیاوران </option>
+                        <option value="#"> سیدخندان</option>
+                        <option value="#">انقلاب</option>
+                        <option value="#">تهرانپارس</option>
+                        <option value="#">میرداماد</option>
+                        <option value="#"> رشت</option>
+                        <option value="#">نیاوران </option>
+                        <option value="#"> سیدخندان</option>
+                        <option value="#">انقلاب</option>
+                        <option value="#">تهرانپارس</option>
+                        <option value="#">میرداماد</option>
+                        <option value="#"> رشت</option>
+                        <option value="#">نیاوران </option>
+                        <option value="#"> سیدخندان</option>
+                        <option value="#">انقلاب</option>
+                        <option value="#">تهرانپارس</option>
+                        <option value="#">میرداماد</option>
+                        <option value="#"> رشت</option>
+                        <option value="#">نیاوران </option>
+                        <option value="#"> سیدخندان</option>
+                        <option value="#">انقلاب</option>
+                        <option value="#">تهرانپارس</option>
+                        <option value="#">میرداماد</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="footer ">
+        <div class="nav-foot container">
+            <ul>
+                <li><a href="#f"> فناوران</a></li>
+                <li><a href="#f"> انتشارات</a></li>
+                <li><a href="#f">آموزش های سازمانی</a> </li>
+                <li><a href="#f">فنی و حرفه ای </a> </li>
+                <li><a href="#f">نظرات و پیشنهادات</a> </li>
+                <li><a href="#f">قوانین و مقررات آموزشی</a> </li>
+                <li><a href="#f">راهنما سامانه مجازی</a> </li>
+            </ul>
+        </div>
+
+        <div class="foot-float container">
+            <div class="address">
+                <p>آدرس دفتر مرکزی: سعادت آباد، بالاتر از ميدان كاج، خيابان دوم (شهيد عبقری)، بلوار بهزاد شمالی، نبش باغستان يكم، شماره 12</p>
+                <p>مشاوره آموزشی:۰۲۱ ۲۷۲۹ | تلفن: ۰۲۱۲۲۰۹۰۰۰۱ | سامانه پیام کوتاه: ۱۰۰۰۲۷۲۹ | پست الکترونیک: info@mft.info</p>
+                <p>© تمامی حقوق برای وب سایت مجتمع فنی تهران محفوظ می باشد، هرگونه استفاده غیر مجاز پیگرد قانونی دارد</p>
+            </div>
+            <div class="foot-icon">
+                <a href="https://www.facebook.com/mftehran" class="insta fab fa-facebook-f">
+                </a>
+                <a href="https://www.instagram.com/mojtamafanitehran/" class="fab fa-instagram insta"></a>
+                <a href="https://www.linkedin.com/in/%D9%85%D8%AC%D8%AA%D9%85%D8%B9-%D9%81%D9%86%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-tehran-institute-of-technology-mft-9b830195/" class="	fab fa-linkedin-in insta"></a>
+                <a href="https://twitter.com/mftehran" class="	fab fa-twitter insta"></a>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+
+</body>
+</html>
